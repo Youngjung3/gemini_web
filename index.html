@@ -1,37 +1,26 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robot" content="index, follow">
-    <meta name="description" content="Aidle. desc">
-    <meta name="author" content="awesomeit">
-    <meta name="keyword" content="보호, 위치, 올바른 스마트폰 사용습관">
-    <meta property="og:title" content="Aidle, awesomeit의 서비스">
-    <meta property="og:url" content=".net">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Aidle">
-    <meta property="og:description" content="아이의 스마트폰 첫걸음 Aidle">
-    <meta property="al:ios:url" content="...">
-    <meta property="al:ios:app_store_id" content="...">
-    <meta property="al:ios:app_name" content="Aidle">
-    <meta property="al:android:url" content="...">
-    <meta property="al:android:app_name" content="Aidle">
-    <meta property="al:android:package" content="...">
-    <meta property="al:web:url" content="...">
-    <title>Aidle</title>
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/dist/css/style.min.css">
-</head>
 
+    <!-- css -->
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/index.css">
+
+    <!-- js -->
+    <script src="js/index.js"></script>
+
+</head>
 <body>
-    <div>
+    <div id="warp">
+
         <header class="header" id="header">
             <div class="header-inner" id="header_inner">
                 <div class="header-title" id="header_title">
                     <a href="#">
-                        <img src="./public/logo.svg" alt="">
+                        <img src="./img/logo.svg" alt="">
                     </a>
                 </div>
                 <div class="header-menu" id="header_menu">
@@ -57,33 +46,39 @@
                 </div>
             </div>
         </header>
-        <main>
-            <div class="container">
-                <div class="img_block">
-                    <img src="./public/images/family.jpg " alt="" class="family">
+
+        <div class="product-wrap">
+
+            <div class="main-visual" id="main_visual">
+                <div class="top-contents" id="top_contents">
+                    <div class="top-contents-inner" id="top_contents_inner">
+
+                        <div class="top-contents-video-container" id="top_contents_video_img">
+                            <div class="top-contents-back" id="top_contents_back">
+                            </div>
+                            <div class="top-contents-video-container-img">
+                            </div>
+                        </div>
+
+                        <div class="top-contents-main" id="top_contents_main">
+                        </div>
+
+                        <div class="top-contents-sub">
+
+                            <p class="top-contents-desc" style="opacity: 0; transform: translate3d(0px, 0px, 0px);" id="desc1">
+                                아이가 학원에 잘 도착했는지
+                            </p>
+
+                            <p class="top-contents-desc" style="opacity: 0; transform: translate3d(0px, 0px, 0px);" id="desc2">
+                                위험한 곳에 있지는 않은지 걱정되시나요?
+                            </p>
+
+                            <p class="top-contents-desc" style="opacity: 0; transform: translate3d(0px, 0px, 0px);" id="desc3">
+                                Aidle
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </main>
-
-
-        <section id="section1">
-            <div id="background1" , class="overlay1"></div>
-            <div id="background2"></div>
-            <p class="desc1">아이가 학원에 잘 도착했는지</p>
-            <p class="desc2">위험한 곳에 있지는 않은지 걱정되시나요?</p>
-
-        </section>
-
-        <section id="content1">
-            <div class="container">
-                <img src="./public/images/content1_phone.jpg" alt="" class="right_content">
-            </div>
-        </section>
-        <footer>
-            <div class="container"></div>
-        </footer>
-    </div>
-    <script src="./src/js/script.js"></script>
 </body>
-
 </html>
